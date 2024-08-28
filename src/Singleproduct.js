@@ -15,7 +15,7 @@ import AddToCart from './components/AddToCart';
 const API = "https://api.pujakaitem.com/api/products";
 
 const Singleproduct = () => {
-  const { getSingleProduct, isSingleLoading, singleProduct } =
+  const { getSingleProduct, singleProduct } =
   useProductContext();
   const { id } = useParams();
 
@@ -25,7 +25,6 @@ const Singleproduct = () => {
     company,
     price,
     description,
-    category,
     stock,
     stars,
     reviews,
