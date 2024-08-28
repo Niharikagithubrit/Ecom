@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage":"https://Niharikagithubrit.github.io/ecom",
-=======
-  "homepage": "http://niharikagithubrit.github.io/ecomwebsite", 
->>>>>>> b0d04f78bd0aee1882aaf930d08d746c8515e0d4
   "name": "react_web",
   "version": "0.1.0",
   "private": true,
@@ -21,13 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-<<<<<<< HEAD
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-=======
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
->>>>>>> b0d04f78bd0aee1882aaf930d08d746c8515e0d4
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
