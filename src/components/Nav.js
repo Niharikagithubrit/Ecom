@@ -10,7 +10,7 @@ const Nav = () => {
 
   const [menuIcon, setMenuIcon] = useState();
   const {total_item} = useCartContext();
-    const Nav = styled.nav`
+    const Navs = styled.nav`
     .navbar-lists {
       display: flex;
       gap: 4.8rem;
@@ -164,8 +164,8 @@ const Nav = () => {
     }
   `;
   return (
-    <Nav>
-    <div className= {menuIcon ? "navbar active" : "navbar"}>
+    <Navs>
+    <div className= {menuIcon ? "navbar active" : "navbar"} >
         <ul className="navbar-lists">
           <li>
             <NavLink
@@ -213,8 +213,8 @@ const Nav = () => {
             className="mobile-nav-icon close-outline" onClick={()=>setMenuIcon(false)}
           />
         </div>
-      </div>
-       </Nav>
+    </div>
+       </Navs>
   )
 }
 
