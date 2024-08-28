@@ -10,7 +10,7 @@ const Nav = () => {
 
   const [menuIcon, setMenuIcon] = useState();
   const {total_item} = useCartContext();
-    const Navs = styled.nav`
+    const Nav = styled.nav`
     .navbar-lists {
       display: flex;
       gap: 4.8rem;
@@ -164,7 +164,7 @@ const Nav = () => {
     }
   `;
   return (
-    <Navs>
+    <Nav>
     <div className= {menuIcon ? "navbar active" : "navbar"} >
         <ul className="navbar-lists">
           <li>
@@ -214,7 +214,7 @@ const Nav = () => {
           />
         </div>
     </div>
-       </Navs>
+       </Nav>
   )
 }
 

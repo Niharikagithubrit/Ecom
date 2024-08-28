@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import About from './About';
-import Products from './Products';
-import Contact from './Contact';
-import Singleproduct from './Singleproduct';
-import Cart from './Cart';
-import ErrorPage from './ErrorPage';
+// import About from './About';
+// import Products from './Products';
+// import Contact from './Contact';
+// import Singleproduct from './Singleproduct';
+// import Cart from './Cart';
+// import ErrorPage from './ErrorPage';
 import { GlobalStyle } from './GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import Header from './components/Header';
