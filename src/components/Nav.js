@@ -12,7 +12,7 @@ const Nav = () => {
   const {total_item} = useCartContext();
     
   return (
-    <Nav>
+    <Navs>
     <div className= {menuIcon ? "navbar active" : "navbar"} >
         <ul className="navbar-lists">
           <li>
@@ -62,12 +62,12 @@ const Nav = () => {
           />
         </div>
       </div>
-       </Nav>
+       </Navs>
   )
 }
 
 
-const Nav = styled.nav`
+const Navs = styled.nav`
     .navbar-lists {
       display: flex;
       gap: 4.8rem;
